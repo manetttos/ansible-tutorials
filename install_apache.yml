@@ -10,10 +10,10 @@
 
   - name: install apache2 package
     yum:
-      name: apache2
+      name: httpd
       state: latest
 
   - name: add php support for apache
     yum:
-      name: lipapache2-mod-php
+      name: php
       state: latest
